@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="375.0" prefWidth="322.0">
+            <children>
+                <TextField fx:id="Us" layoutX="87.0" layoutY="100.0" />
+                <Label layoutX="100.0" layoutY="76.0" text="Introduzca temperatura" />
+                <Button fx:id="Temperaturas" layoutX="105.0" layoutY="175.0" mnemonicParsing="false" onAction="#Temp" text="Ver temperaturas" />
+                <Button fx:id="Exit" layoutX="139.0" layoutY="314.0" mnemonicParsing="false" onAction="#Exit" text="EXIT" />
+                <Label fx:id="LoginLabel" alignment="TOP_CENTER" layoutX="85.0" layoutY="204.0" prefHeight="108.0" prefWidth="149.0" textAlignment="CENTER" textFill="#05a818" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
